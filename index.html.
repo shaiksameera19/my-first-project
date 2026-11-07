@@ -1,21 +1,86 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-    <title>My Creative Portfolio</title>
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title><link rel="stylesheet" href="style.css">
 
-<body>
+</head><body><header>
+    <div class="logo">My Portfolio ♡</div>
 
-    <h1>Hey, I'm a Developer! 💗</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <h2>Welcome to My Little World ✨</h2>
+<section class="hero" id="home">
 
+    <div class="hero-text">
+        <p class="welcome">HELLO, WORLD! ✨</p>
+
+        <h1>Hey! I'm a <span>Developer</span> 💗</h1>
+
+        <h2>Welcome to my little creative world!</h2>
+
+        <p>
+            I'm a Computer Science student who loves
+            learning coding, creating websites and
+            turning creative ideas into reality.
+        </p>
+
+        <a href="#about" class="btn">Explore My World ♡</a>
+    </div>
+
+    <div class="character">
+        <div class="avatar">👩🏻‍💻</div>
+        <p>Code. Create. Repeat. ✨</p>
+    </div>
+
+</section>
+
+<section id="about">
+    <h2>About Me 🌸</h2>
     <p>
-        I'm a Computer Science student
-        who loves creating websites.
+        I'm a B.Tech Computer Science student.
+        I'm passionate about technology, coding
+        and creating beautiful websites.
     </p>
+</section>
 
-    <button>Explore My World</button>
+<section id="skills">
+    <h2>My Skills 💻</h2>
+
+    <div class="cards">
+        <div class="card">☕ Java</div>
+        <div class="card">🌐 HTML</div>
+        <div class="card">🎨 CSS</div>
+        <div class="card">⚡ JavaScript</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects 🚀</h2>
+
+    <div class="card">
+        <h3>My First Portfolio</h3>
+        <p>My personal creative website.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Let's Connect 💌</h2>
+    <p>Thanks for visiting my little world!</p>
+    <a href="mailto:yourmail@gmail.com" class="btn">
+        Contact Me
+    </a>
+</section>
+
+<footer>
+    Made with 💗 and creativity.
+</footer>
 
 </body>
 </html>
