@@ -1,13 +1,13 @@
+
 <!DOCTYPE html><html lang="en">
-<!-- My Portfolio Website -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Creative Portfolio</title><link rel="stylesheet" href="style.css">
-
-</head><body><header>
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
     <div class="logo">My Portfolio ♡</div>
-
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -15,73 +15,43 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
-</header>
-
-<section class="hero" id="home">
-
+</header><section class="hero" id="home">
     <div class="hero-text">
         <p class="welcome">HELLO, WORLD! ✨</p>
-
         <h1>Hey! I'm a <span>Developer</span> 💗</h1>
-
         <h2>Welcome to my little creative world!</h2>
-
         <p>
             I'm a Computer Science student who loves
-            learning coding, creating websites and
-            turning creative ideas into reality.
+            learning coding and creating websites.
         </p>
-
         <a href="#about" class="btn">Explore My World ♡</a>
-    </div>
+    </div><div class="character">
+    <div class="avatar">👩🏻‍💻</div>
+    <p>Code. Create. Repeat. ✨</p>
+</div>
 
-    <div class="character">
-        <div class="avatar">👩🏻‍💻</div>
-        <p>Code. Create. Repeat. ✨</p>
-    </div>
-
-</section>
-
-<section id="about">
+</section><section id="about">
     <h2>About Me 🌸</h2>
-    <p>
-        I'm a B.Tech Computer Science student.
-        I'm passionate about technology, coding
-        and creating beautiful websites.
-    </p>
-</section>
-
-<section id="skills">
+    <p>I'm a B.Tech Computer Science student passionate about technology and coding.</p>
+</section><section id="skills">
     <h2>My Skills 💻</h2>
-
     <div class="cards">
         <div class="card">☕ Java</div>
         <div class="card">🌐 HTML</div>
         <div class="card">🎨 CSS</div>
         <div class="card">⚡ JavaScript</div>
     </div>
-</section>
-
-<section id="projects">
+</section><section id="projects">
     <h2>My Projects 🚀</h2>
-
     <div class="card">
         <h3>My First Portfolio</h3>
         <p>My personal creative website.</p>
     </div>
-</section>
-
-<section id="contact">
+</section><section id="contact">
     <h2>Let's Connect 💌</h2>
     <p>Thanks for visiting my little world!</p>
-    <a href="mailto:yourmail@gmail.com" class="btn">
-        Contact Me
-    </a>
-</section>
-
-<footer>
+    <a href="mailto:yourmail@gmail.com" class="btn">Contact Me</a>
+</section><footer>
     Made with 💗 and creativity.
-</footer>
-
-</body>
+</footer></body>
 </html>
